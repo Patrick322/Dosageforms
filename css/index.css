@@ -1,28 +1,29 @@
-nav {
-  background-color: #59c3c3
-  
-}
 
-li {
-  border-right: 1px solid #bbb;
-  display: inline-block;
-  text-align: center;
-}
-
-ul {
-  display:flex;
-  justify-content: space-around;
-  background-color: #333;
+.navbar {
   width: 100%;
+  background-color: #555;
+  overflow: auto;
 }
 
-li a {
+.navbar a {
+  float: left;
+  padding: 12px;
   color: white;
-  text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
+  font-size: 17px;
 }
 
-li a:hover {
-  background-color: #59c3c3;
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
 }
