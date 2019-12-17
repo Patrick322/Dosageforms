@@ -1,0 +1,28 @@
+nav {
+  background-color: #59c3c3
+  
+}
+
+li {
+  border-right: 1px solid #bbb;
+  display: inline-block;
+  text-align: center;
+}
+
+ul {
+  display:flex;
+  justify-content: space-around;
+  background-color: #333;
+  width: 100%;
+}
+
+li a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #59c3c3;
+}
