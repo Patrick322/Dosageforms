@@ -1,4 +1,4 @@
-/* #{
+/* /* #{
   background-color: #59c3c3;
 }
 
@@ -25,7 +25,7 @@
     display: block;
   }
 } */
-body {
+/* body {
   background: linear-gradient(70deg, #e6e6e6, #f7f7f7);
   color: #514B64;
   min-height: 100vh;
@@ -36,4 +36,4 @@ code {
   padding: 0.2rem;
   border-radius: 0.2rem;
   margin: 0 0.3rem;
-}
+}  */
